@@ -8,7 +8,6 @@ choco install 7zip.install -y
 choco install vlc -y
 choco install cider -y
 choco install powertoys -y
-choco install office365homepremium -y
 choco install thonny -y
 choco install visualstudio2022community -y
 choco install cura -y
