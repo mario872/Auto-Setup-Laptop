@@ -1,5 +1,5 @@
 powershell.exe -c "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))"
-# powershell.exe -c "[system.Diagnostics.Process]::Start('firefox','https://activate.movavi.com/eds.php?ouid=[PRODUCTIDHERE]&lang=en')"
+:: powershell.exe -c "[system.Diagnostics.Process]::Start('firefox','https://activate.movavi.com/eds.php?ouid=[PRODUCTIDHERE]&lang=en')"
 choco install firefox -y
 choco install jre8 -y
 choco install python3 -y
