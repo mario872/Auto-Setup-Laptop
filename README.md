@@ -6,3 +6,6 @@ Install and Setup.bat installs chocolatey and multiple apps that I like to use, 
 Rufus is a usb-flashing tool that is used to flash the .iso to the setup usb. This is how I set up my USB drive which is pretty normal:
 <img width="359" alt="Rufus #1" src="https://user-images.githubusercontent.com/106939571/208372155-c7b2078c-7611-432c-abe5-3b13353ca02c.png">
 <img width="359" alt="Rufus #2" src="https://user-images.githubusercontent.com/106939571/208372153-6a4cadab-cc1a-45b9-a25a-78d89d5506a3.png">
+
+Also found a background wallpaper image here: https://community.frame.work/t/3-2-desktop-wallpapers/3533/91
+Added that to the setup script.
