@@ -1,5 +1,9 @@
 powershell.exe -c "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))"
+powershell.exe -c "Invoke-WebRequest -OutFile C:\Users\James\Pictures\Framework-Wallpaper.bmp -Uri https://raw.githubusercontent.com/mario872/Auto-Setup-Laptop/main/Framework-Laptop-Wallpaper.bmp"
+reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d C:\Users\James\Pictures\Framework-Wallpaper.bmp /f
+RUNDLL32.EXE user32.dll,UpdatePerUserSystemParameters
 :: powershell.exe -c "[system.Diagnostics.Process]::Start('firefox','https://activate.movavi.com/eds.php?ouid=[PRODUCTIDHERE]&lang=en')"
+powershell.exe -c
 choco install firefox -y
 choco install jre8 -y
 choco install python3 -y
