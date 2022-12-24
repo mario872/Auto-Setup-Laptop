@@ -1,9 +1,9 @@
 powershell.exe -c "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))"
-powershell.exe -c "Invoke-WebRequest -OutFile C:\Users\James\Pictures\Framework-Wallpaper.bmp -Uri https://raw.githubusercontent.com/mario872/Auto-Setup-Laptop/main/Framework-Laptop-Wallpaper.bmp"
-reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d C:\Users\James\Pictures\Framework-Wallpaper.bmp /f
-RUNDLL32.EXE user32.dll,UpdatePerUserSystemParameters
+powershell.exe -c "Invoke-WebRequest -OutFile C:\Users\James\Pictures\Wallpaper\Mountain.jpeg -Uri https://static-community.frame.work/original/2X/6/6dba4dfb5d3ef40c5c49e116a913fd1c3a8fbcdd.jpeg"
+powershell.exe -c "Invoke-WebRequest -OutFile C:\Users\James\Pictures\Wallpaper\Bridge.jpeg -Uri https://static-community.frame.work/original/2X/c/c0ccd40063d3851b4f32a1c10b89c96d97fb297f.jpeg"
+powershell.exe -c "Invoke-WebRequest -OutFile C:\Users\James\Pictures\Wallpaper\Green.jpeg -Uri https://static-community.frame.work/original/2X/8/804c88c3f2c616e4455b566c62050dd37d73b7fc.jpeg"
+powershell.exe -c "Invoke-WebRequest -OutFile C:\Users\James\Pictures\Wallpaper\Red.jpeg -Uri https://static-community.frame.work/original/2X/3/367277735d0091ef18c1d88f989908992bd92a77.jpeg"
 :: powershell.exe -c "[system.Diagnostics.Process]::Start('firefox','https://activate.movavi.com/eds.php?ouid=[PRODUCTIDHERE]&lang=en')"
-powershell.exe -c
 choco install firefox -y
 choco install jre8 -y
 choco install python3 -y
